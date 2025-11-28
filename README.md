@@ -55,7 +55,6 @@ class Product (models.Model):
 class ProductAdmin(admin.ModelAdmin):
     list_display=('product_id','product_name','price','brand','stock_quantity')
 
-
 ```
 
 ## OUTPUT
