@@ -40,7 +40,8 @@ admin.py
 from django.contrib import admin
 from .models import Product,ProductAdmin
 admin.site.register(Product,ProductAdmin)
-
+```
+```
 models.py
 from django.db import models
 from django.contrib import admin
